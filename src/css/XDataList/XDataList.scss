@@ -1,0 +1,8 @@
+.title {
+    color: red;
+}
+
+/* 全局样式 脱离模块化 */
+:global(.test) {
+    font-style: italic;
+}
